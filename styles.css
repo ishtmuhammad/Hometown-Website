@@ -1,0 +1,170 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #941B0C;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+h1 {
+    margin: 0; 
+    }
+    
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px
+    }
+    
+h4 {
+    margin: 0;
+}
+
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("images/harlem-hero.jpeg");
+    background-size: cover;
+    color: #F1FAEE;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+}   
+
+#visit-text{
+     background: #941B0C;
+     padding: 4px 8px 4px 8px;
+     font-size: 26px;
+     border-radius: 6px;
+    }
+    
+#visit-subtitle{
+    background: #BC3908;
+    padding: 4px 8px 4px 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 260px
+}
+
+.activities {
+    background: #F6AA1C;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+ 
+#activity-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.harlem-activity-img {
+    background-size: cover;
+    clip-path: circle(40%);
+    height: 140px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 140px;
+}
+
+#footer{
+    margin-bottom:  
+}
+
+.guide{
+    margin: 0;
+    padding: 0;
+    color: #220901;
+    border: none 4px blue;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto 40px;
+    text-align: center;
+    width: 400px;
+    padding: 60px 50px 60px 50px;
+    background: #BC3908;
+    border-bottom: 20px solid #621708;
+}
+
+#avatar{
+ width: 150px;  
+ border-radius: 8px 
+}
+
+#font-style{
+    font-style: italic;
+    font-size: 16px;
+}
+
+.start{
+    
+    } 
+    
+#start-card{
+    background: #BC3908;
+    background-size: cover;
+    color: #220901;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#ready{
+    margin-top: 30px;
+}
+
+button{
+    margin-top: 23px;
+    padding: 10px 15px 10px 15px;
+    color: #F1FAEE;
+    border: none;
+    border-radius: 6px;
+    background: #941B0C;
+    cursor: pointer;
+}
+button:hover{
+    background: #F6AA1C;
+}
+
+#explore-font-size{
+    font-size: 19px;
+    font-style: italic;
+}
+
+#terms-card{
+    background: #F6AA1C;
+    background-size: cover;
+    color: #220901;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+}
